@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>TITLE</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Global styles={GlobalStyle} />
