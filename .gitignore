@@ -1,0 +1,38 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.old
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# npm
+package-lock.json
+
+# production
+/build
+
+# local env files
+*.local
