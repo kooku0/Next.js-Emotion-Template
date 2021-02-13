@@ -15,13 +15,13 @@ const Container = styled.section`
   }
 `;
 
-const Home: React.FC = () => {
+const Menu3: React.FC = () => {
   const isMobile = useContext(IsMobileContext);
 
   return (
     <>
       <Head>
-        <title>MAIN</title>
+        <title>Menu3</title>
       </Head>
 
       <Container>{!isMobile ? 'Desktop' : 'Mobile'}</Container>
@@ -29,4 +29,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Menu3;
