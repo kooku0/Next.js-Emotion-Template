@@ -4,6 +4,7 @@ import { Global, ThemeProvider } from '@emotion/react';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
+import NavBar from '@/components/navigation';
 import IsMobileProvider from '@/context/isMobileContext';
 import GlobalStyle from '@/styles/global-styles';
 import theme from '@/styles/theme';
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ThemeProvider theme={theme}>
         <React.StrictMode>
           <IsMobileProvider>
+            <NavBar />
             <Component {...pageProps} />
           </IsMobileProvider>
         </React.StrictMode>
